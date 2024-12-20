@@ -1,0 +1,44 @@
+<odoo>
+<!-- # Copyright 2024 Bernat Obrador
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).-->
+    <record id="view_stock_analytic_model_tree" model="ir.ui.view">
+        <field name="name">stock.analytic.model.tree</field>
+        <field name="model">stock.analytic.model</field>
+        <field name="arch" type="xml">
+            <tree editable="top" create="true">
+                <field name="name" />
+                <field name="location_from_id" />
+                <field name="location_dest_id" />
+                <field name="product_category_id" />
+                <field name="positive_analytic_account_id" />
+                <field name="negative_analytic_account_id" />
+                <field name="avg_cost_per_kg" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_stock_analytic_model" model="ir.actions.act_window">
+        <field name="name">Stock Analytic Models</field>
+        <field name="res_model">stock.analytic.model</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_create">
+                Create your first Stock Analytic Model
+            </p>
+        </field>
+    </record>
+
+    <menuitem
+        parent="account.menu_finance_configuration"
+        name="Stock Analytic"
+        id="stock_analytic_menu"
+        groups="analytic.group_analytic_accounting"
+    />
+    <menuitem
+        parent="stock_analytic_menu"
+        name="Stock Analytic Models"
+        action="action_stock_analytic_model"
+        id="stock_analytic_model_menu"
+        sequence="1"
+    />
+</odoo>

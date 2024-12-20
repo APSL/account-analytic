@@ -1,0 +1,131 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_analytic_distribution_model
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-23 09:59+0000\n"
+"PO-Revision-Date: 2024-12-23 09:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_analytic_distribution_model
+#. odoo-python
+#: code:addons/stock_analytic_distribution_model/models/stock_analytic_model.py:0
+#, python-format
+msgid ""
+"A Stock Analytic Model with the same 'From', 'To', and 'Product Category' "
+"already exists."
+msgstr "Ja existeix un Model Analític d'Estoc amb el mateix 'Des de', 'Fins a' i 'Categoria de Producte'."
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__avg_cost_per_kg
+msgid "Average Cost Per Kg"
+msgstr "Cost Mitjà Per Kg"
+
+#. module: stock_analytic_distribution_model
+#: model_terms:ir.actions.act_window,help:stock_analytic_distribution_model.action_stock_analytic_model
+msgid "Create your first Stock Analytic Model"
+msgstr "Crea el teu primer Model Analític d'Estoc"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__display_name
+msgid "Display Name"
+msgstr "Nom per mostrar"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__location_from_id
+msgid "From"
+msgstr "Des de"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__id
+msgid "ID"
+msgstr ""
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__write_uid
+msgid "Last Updated by"
+msgstr "Darrera actualització per"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__write_date
+msgid "Last Updated on"
+msgstr "Darrera actualització el"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__negative_analytic_account_id
+msgid "Negative Analytic Account"
+msgstr "Compte analític negatiu"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__positive_analytic_account_id
+msgid "Positive Analytic Account"
+msgstr "Compte analític positiu"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__product_category_id
+msgid "Product Category"
+msgstr "Categoria de producte"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,help:stock_analytic_distribution_model.field_stock_analytic_model__avg_cost_per_kg
+msgid ""
+"Represents the average cost per kilogram, used to calculate the delivery "
+"cost for generating analytic lines."
+msgstr "Representa el cost mitjà per quilogram, utilitzat per calcular el cost d’entrega per a la generació de línies analítiques."
+
+#. module: stock_analytic_distribution_model
+#: model:ir.ui.menu,name:stock_analytic_distribution_model.stock_analytic_menu
+msgid "Stock Analytic"
+msgstr "Analítica d'estoc"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model,name:stock_analytic_distribution_model.model_stock_analytic_model
+msgid "Stock Analytic Model"
+msgstr "Model analític d'estoc"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.actions.act_window,name:stock_analytic_distribution_model.action_stock_analytic_model
+#: model:ir.ui.menu,name:stock_analytic_distribution_model.stock_analytic_model_menu
+#: model_terms:ir.ui.view,arch_db:stock_analytic_distribution_model.view_stock_analytic_model_tree
+msgid "Stock Analytic Models"
+msgstr "Models analítics d'estoc"
+
+#. module: stock_analytic_distribution_model
+#. odoo-python
+#: code:addons/stock_analytic_distribution_model/models/stock_analytic_model.py:0
+#, python-format
+msgid "The product weight must be greater than zero."
+msgstr "El pes del producte ha de ser superior a zero."
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model.fields,field_description:stock_analytic_distribution_model.field_stock_analytic_model__location_dest_id
+msgid "To"
+msgstr "Fins a"
+
+#. module: stock_analytic_distribution_model
+#: model:ir.model,name:stock_analytic_distribution_model.model_stock_picking
+msgid "Transfer"
+msgstr "Transferència"
